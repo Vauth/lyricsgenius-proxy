@@ -31,7 +31,7 @@ A transparent, clean proxy for the Genius.com API running on Cloudflare Workers.
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/vauth/lyricsgenius-proxy)
 
 > [!NOTE]
-> Cloudflare allows `200,000` free requests per day on free plan.
+> Cloudflare allows `100,000` free requests per day on free plan.
 
 <br>
 
