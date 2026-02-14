@@ -56,6 +56,21 @@ print(lyrics.lyrics)
 
 <br>
 
+## ‼️ How to reset?
+To reset the `Sender` configuration back to the default Genius URLs, you simply need to reassign the original values to the class attributes.
+```python
+from lyricsgenius.api.base import Sender
+
+def resetSender():
+    Sender.API_ROOT = "https://api.genius.com/"
+    Sender.PUBLIC_API_ROOT = "https://genius.com/api/"
+    Sender.WEB_ROOT = "https://genius.com/"
+
+resetSender()
+```
+
+<br>
+
 ## 🔗 Contributing
 Contributions are welcome! Feel free to submit a pull request or report an issue.
 
