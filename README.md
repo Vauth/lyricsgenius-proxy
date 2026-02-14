@@ -25,7 +25,7 @@ A transparent, clean proxy for the Genius.com API running on Cloudflare Workers.
 - Navigate to `Workers & Pages > Create > Create Worker`.
 - Deploy the worker by clicking **Deploy**.
 - Edit the code by clicking **Edit Code**.
-- Upload [worker.js](worker/worker.js) into **Cloudflare**.
+- Upload [worker.js](worker.js) into **Cloudflare**.
 - Finally, **Deploy**.
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/vauth/lyricsgenius-proxy)
